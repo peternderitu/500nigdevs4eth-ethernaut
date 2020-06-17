@@ -1,0 +1,5 @@
+1. Copy paste the Fallout contract in the remix ide
+2. Compile error No constructor.
+3. spelling mistake on constructor Fal1out instead of Fallout
+4. await contract.Fal1out()
+5. await contract.collectAllocations()

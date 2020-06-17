@@ -1,0 +1,12 @@
+1. Requsting level instance.
+2.submitting gas
+3. contract.info()
+4. await contract.info1()
+5. await contract.info2("hello")
+6. await contract.infoNum()
+7. await contract.info42()
+8. await contract.theMethodName()
+9. await contract.method7123949()
+10. await contract.password()
+11. await contract.authenticate("ethernaut0")
+12. completed level after submitting instance
