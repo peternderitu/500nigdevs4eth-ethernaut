@@ -1,4 +1,1 @@
-1. Generationg a random number then didviding that number by factor.
-2. number> 1 is true while any other is false
-3. create a hack contract on remix
-4. Stuck doing it
+1. Create a hackflip contract as in (./hackCoinFlip.sol)

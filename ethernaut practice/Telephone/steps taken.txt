@@ -1,0 +1,5 @@
+1. checks if txn.origin is not equal to msg.sender
+2. Check definition of txn.origin vs msg.sender
+3. Create a contract that calls original contract i.e ./hackTelephone
+4. call changeOwner and input the players address
+5. check await contract.owner()

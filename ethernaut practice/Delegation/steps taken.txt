@@ -1,0 +1,5 @@
+1. using delegatecall you can call a target contract functions using a caller contract without changing context i.e msg.sender, msg.value or storage.
+2. contract Delegation calls contract Delegate which has function pwn() which chnges ownership when invoked.
+3. so if owner in Delegate occupies slot 0, we make msg.sender be saved in 0
+4. await sendTransaction({from:player, to:instance, data: web3.sha3("pwn()").slice(0,10)})
+5. This calls the function name and argument data types, first 4 bytes

@@ -1,0 +1,4 @@
+1. Testing overflows and underflow
+2. Send a _value > 20
+3. balances[msg.sender] -= 21 = -1
+4. using uint 256 -1 becomes very large
