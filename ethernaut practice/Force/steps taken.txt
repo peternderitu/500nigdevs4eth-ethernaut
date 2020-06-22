@@ -1,0 +1,2 @@
+1. Create a contract that accepts ether and deposit ether as in ./force.sol
+2. In the contract have a function that selfdestructs the contract where the balance of force.sol is sent to the empty contract Force.
