@@ -1,0 +1,6 @@
+1. password is private but not encryped
+2. Use truffle deploy to compile on local machine
+3. truffle console --network ropsten
+4. web3.eth.getStorageAs(instance, 1, (err,res)=>{console.log(res)})
+5. web3.utils.hexToAscii(res)
+6. await contract.unlock(res)
