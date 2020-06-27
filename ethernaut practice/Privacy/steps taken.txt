@@ -1,0 +1,6 @@
+1. Get the slot index number where data is stored on storage
+2. Using remix console:-
+   web3.eth.getStorageAt('0x4da25320a616ccd3fe7bb5f132dddb73e307482a', 3 , function(err,result) {console.log(result)})
+3. using remix cast.sol typecast bytes32 to bytes 16
+4. await contract.unlock(0x54e50d8f3dcc7f31e48c1f53d271cd54)
+5. Confirm with await.contract.locked()
