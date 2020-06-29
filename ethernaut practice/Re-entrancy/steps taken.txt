@@ -1,2 +1,4 @@
 1. Use another contract to make a recursive call as shown in ./reentrancy.sol
-2. **getting a gas estimation error when deploying expoit
+2. Deposit an amount to your malicious contract
+3. Get the keccak-256 hash for fallback and paste it into low level call input in remix and transact
+4. Submit instance
